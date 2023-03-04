@@ -175,73 +175,73 @@ video {
   width: 100%;
 }
 
-/* Recent blog posts */
+
 article {
   margin-bottom: 20px;
 }
 
 .container {
   width: 100%;
-  max-width: 500px; /* increased to make the form wider */
-  margin: 0 auto; /* set left and right margins to auto */
-  padding: 30px; /* increased for more spacing */
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
   box-sizing: border-box;
-  background-color: #f8f8f8; /* added a light gray background color */
-  border-radius: 10px; /* added rounded corners */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* added a subtle shadow effect */
-  position: absolute; /* added absolute position */
-  top: 50%; /* set top to 50% */
-  left: 50%; /* set left to 50% */
-  transform: translate(-50%, -50%); /* use transform to center the div */
+  background-color: #f8f8f8; 
+  border-radius: 10px; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
 }
 
 
 h1 {
-  text-align: center; /* centered the heading */
-  margin-bottom: 20px; /* added some spacing below the heading */
-  font-size: 32px; /* increased font size */
+  text-align: center; 
+  margin-bottom: 20px; 
+  font-size: 32px; 
 }
 
 label {
-  display: block; /* made each label and input field stack vertically */
-  margin-bottom: 10px; /* added spacing below each label */
-  font-size: 18px; /* increased font size */
-  font-weight: bold; /* made the labels bold */
+  display: block;
+  margin-bottom: 10px; 
+  font-size: 18px;
+  font-weight: bold; 
 }
 
 input,
 textarea {
-  width: 100%; /* made the input fields full width */
-  padding: 10px; /* increased padding for better readability */
-  margin-bottom: 20px; /* added spacing below each input field */
-  font-size: 16px; /* decreased font size slightly */
-  border-radius: 5px; /* added rounded corners */
-  border: none; /* removed default border */
-  background-color: #f2f2f2; /* added a light gray background color */
+  width: 100%; 
+  padding: 10px; 
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px; 
+  border: none; 
+  background-color: #f2f2f2; 
 }
 
 input:focus,
 textarea:focus {
-  outline: none; /* removed focus outline */
-  background-color: #e0e0e0; /* added a slightly darker background color when input is focused */
+  outline: none; 
+  background-color: #e0e0e0; 
 }
 
 button[type="submit"] {
-  display: block; /* made the submit button a block element */
-  margin: 0 auto; /* centered the button */
-  padding: 10px 20px; /* added padding to the button */
-  font-size: 18px; /* increased font size */
-  font-weight: bold; /* made the button bold */
-  border-radius: 5px; /* added rounded corners */
-  border: none; /* removed default border */
-  background-color: #4CAF50; /* added a green background color */
-  color: white; /* added white text color */
-  cursor: pointer; /* added cursor pointer on hover */
-  transition: background-color 0.3s ease; /* added a transition effect on hover */
+  display: block;
+  margin: 0 auto; 
+  padding: 10px 20px; 
+  font-size: 18px; 
+  font-weight: bold; 
+  border-radius: 5px; 
+  border: none; 
+  background-color: #4CAF50; 
+  color: white;
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
 }
 
 button[type="submit"]:hover {
-  background-color: #3e8e41; /* changed background color on hover */
+  background-color: #3e8e41; 
 }
 
 
